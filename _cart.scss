@@ -1,0 +1,387 @@
+
+.top-cart{
+  height: 400px;
+  background-image: url(./content/img_cart/background.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+
+.heading-big{
+width: 292px;
+height: 70px;
+padding-top: 127px;
+font-family: Montserrat;
+font-weight: 600;
+font-size: 64px;
+line-height: 70px;
+letter-spacing: 0%;
+color: #FFFFFF;
+}
+}
+
+
+
+.cart{
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px;
+   
+ &__form{
+    width: 379px;
+height: 556px;
+top: 464px;
+left: 941px;
+border-radius: 20px;
+background: #F7F6F6;
+grid-column: span 4; 
+border-radius: 20px;
+text-align: center; }
+    
+ &__content{
+      grid-column: span 8;    }
+&__name-box{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 14px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;   
+}
+   
+
+&__item{
+
+height: 198px;
+top: 498px;
+left: 122px;
+border-width: 0px, 0px, 0px, 0px;
+border-top: solid;
+border-color: #CACDD8;
+padding-top: 21px;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+padding-bottom: 15px;
+}
+&__info{
+    width: 276px;
+    display: grid;
+    
+
+}
+
+
+&__left{
+    display: flex;
+    gap: 32px;
+
+}
+&__link-box{
+    display: flex;
+    gap: 30px;
+    
+    
+    font-size: 14px;
+    &-select{
+      text-decoration: underline;
+        color:rgb(0, 0, 0);
+        font-weight:400;
+        font-size: 14px;}
+}
+   &__cart-link{ padding-top: 12px;} 
+
+
+&__name{
+    font-size: 24px;
+    font-weight: 500;
+    height: 29px;}
+
+    &__description{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+    }
+&__form-title{
+    padding-top: 42px;
+      font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 45px;
+}
+&__form-info{
+width: 288px;
+height: 143px;
+top: 577px;
+left: 968px;
+border-width: 1px;
+display: grid;
+align-content: space-between;
+padding-bottom: 64px;
+padding-left: 27px;
+}
+&__form-total{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 23px;
+}
+&__form-buy{
+    font-family: Montserrat;
+    width: 290px;
+    height: 41px;
+    border-radius: 20px;
+    border-width: 1px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(247, 246, 246);
+    cursor: pointer;
+    transition: background-color 2s, transform 0.3s ease ;
+    animation: pulse 2s infinite;;
+    &:hover{transform: scale(1.1);
+    font-weight: 600;
+  background-color: green;
+color: #FFFFFF;}
+
+}
+&__form-contact{
+       
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid rgb(202, 205, 216);
+    background-color:rgb(247, 246, 246);
+    box-shadow: none;
+    font-family: Montserrat;
+font-weight: 400;
+font-size: 14px;
+   
+    
+}
+&__price{
+    font-weight: 500;
+    font-size: 16px;
+}}
+
+.cart-link{ padding-top: 29px;}
+
+.cart__link-box-select:hover{
+  text-decoration:none;
+  color:rgb(136, 136, 136)}
+
+ .link-box{ display: flex;
+    gap:7px;
+    padding-top: 10px;
+    &__but{
+        width: 200px;
+height: 37px;
+border-radius: 50px;
+border-width: 1px;
+font-family: Montserrat;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: center;
+vertical-align: middle;
+background-color: #FFFFFF;
+cursor: pointer;
+transition:background-color 1s;
+    &:hover{background-color: #000000;
+    color: #FFFFFF;}}
+ }
+   
+
+
+
+
+.how{
+font-family: poppins;
+width: 71px;
+height:51px;
+font-weight: 600;
+font-size: 14px;
+text-align: center;
+border-radius: 6px;
+border-color: #FFFFFF;
+background-color:rgb(247, 246, 246) ;
+border: none;
+box-shadow: none;
+
+}
+
+
+
+.header {
+  height: 77px;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+
+&__input {
+  width: 288px;
+  height: 41px;
+  border: 1px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: transparent;
+  outline: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+&__input::-moz-placeholder {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
+&__input::placeholder {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
+
+
+
+&__menu {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  display: flex;
+  gap: 32px;
+  color: #FFFFFF;
+  }
+ 
+}
+
+
+.topic {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  padding-top: 70px;
+  padding-bottom: 38px;
+}
+
+.product-box {
+  display: flex;
+  column-gap: 33px;
+  row-gap: 48px;
+  flex-wrap: wrap;
+  
+}
+
+.product {
+  width: 378px;
+  padding-bottom: 8px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+
+
+&__name {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+&__img {
+  width: 100%;
+}
+
+&__info {
+  padding-bottom: 12px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #888888;
+}
+
+&__price {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #050505;
+}
+
+&__price-old {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-decoration-line: line-through;
+  color: #888888;
+}
+
+.price-box {
+  display: flex;
+  gap: 32px;
+}
+
+&__name {
+  padding-top: 10px;
+  padding-bottom: 9px;
+}
+
+&__info {
+  padding-bottom: 12px;
+}
+}
+
+.link-catalog {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  color: #000000;
+
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+

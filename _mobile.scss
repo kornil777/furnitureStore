@@ -1,0 +1,289 @@
+@media (max-width: 767px){
+// общие стили
+
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+
+    .header{
+        height: 57px;
+        padding-top: 32px;
+        border-bottom: none;
+
+        &__input{ display: none;}
+
+        &__menu{ display: none;}
+        &__logo-img{width: 99px;}
+    }
+    .menu-mob{display: flex;
+              gap: 32px;
+              align-items: center;}
+
+   .footer{
+        margin-top: 32px;
+        padding-bottom: 32px;
+        &__info{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            row-gap: 69px;
+        }
+        &__item{align-items: flex-start;}
+        &__content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 69px;
+    }
+    }
+    .modal{display: none;}
+
+
+
+// Стили для главной страницы
+.main {
+  height: 735px;
+  background-image: url(.//content/img/back-main-mob.jpeg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 17px;
+    
+
+&__title{font-size: 48px;
+         line-height: 59px;
+         text-align:  center;
+         padding-top: 26px;
+         }
+
+&__text{
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+&__link{
+    font-size: 14px;
+    line-height: 24px;
+    align-items:  center;
+    }             
+    
+
+
+}
+.for-box{
+    padding-top: 32px;
+}
+.categories{
+    font-size: 24px;
+    line-height: 29px;
+    
+}
+.for{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 13px;
+    &__item{
+        grid-column: 1/-1;
+        height: 375px;
+        font-size: 28px;
+        line-height: 34px;
+        &_big{
+            height: 244px;}
+    }
+
+}
+
+.topic{font-size: 24px;
+    line-height: 29px;
+    padding-top: 42px;
+    padding-bottom: 32px;}
+
+ 
+
+ 
+
+// стили для каталога
+
+.head-catalog {
+    height: 400px;
+    background-image: url(.//content/img_cat/Back_cat-mob.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.title{
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+  
+}
+
+.catalog-product-box {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    
+}
+.product{
+    height: 349px;
+    width: 343px;
+
+    &__img{
+    height: 226px;
+    }
+    &__name{
+        font-size: 18px;
+        line-height: 22px;
+        padding-top: 0;
+    }
+    &__price{
+        font-size: 18px;
+        line-height: 22px;}
+    &__price-old{font-size: 18px;
+        line-height: 22px; } 
+        &__info {padding-bottom: 10px;
+}   
+}
+.product-box {
+        display: flex;
+        column-gap: 29px;
+        row-gap: 25px;
+    }
+
+    
+
+.filtiring-form{
+        width: 286px;
+        height: 910px;
+        display: flex;
+        left: 0;
+        flex-direction: row;
+        justify-content: start;
+        flex-wrap: wrap;
+
+
+    
+    &__content-wrapper {
+
+        flex-wrap: wrap;
+        min-width: 286px;
+        gap: 20px;
+        display: flex;
+        flex-direction: row;}
+    
+    
+}
+
+ .bar{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-top: 16px;
+    }
+
+.select{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.filter-button-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+}
+.filter-buttons{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.filter-button-2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: start;
+    width: 203px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-color: #c4c4c4;
+    background-image: url(./content/img_cat/Polygon\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    border-radius: 20px;
+    padding-left: 23px;
+}
+
+// Стили для корзины
+.top-cart{
+  height: 400px;
+  background-image: url(./content/img_cart/back-cart-mob.jpeg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;}
+
+
+.cart{width: 343px;
+    margin-top: 92px;
+    &__content{width: 343px;}
+    &__name-box{display: none;}
+    &__item{height: 167px;
+    padding-bottom: 0;}
+
+
+    &__name{ font-size: 18px;
+             line-height: 22px;}
+    &__description{ font-size: 12px;
+             line-height: 15px;
+            padding-top: 8px;}
+    &__price{ font-size: 12px;
+             line-height: 15px;
+            padding-top: 15px;}
+    &__link-box{ padding-top: 14px;}
+       .cart-img{ display: none;}
+
+&__form{ width: 311px;
+     align-items: center;}
+       
+
+
+.link-box{ display: flex;
+    gap:7px;
+    padding-top: 0;
+    padding-bottom: 16px;
+
+    &__but{
+        width: 166px;
+height: 37px;
+border-radius: 50px;
+border-width: 1px;
+font-family: Montserrat;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0px;
+text-align: center;
+vertical-align: middle;
+background-color: #FFFFFF;
+cursor: pointer;
+transition:background-color 1s;
+    &:hover{background-color: #000000;
+    color: #FFFFFF;}
+
+    }
+ 
+}
+
+
+}}
+
